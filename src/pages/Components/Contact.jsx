@@ -4,7 +4,7 @@ import Button from './Button'
 const Contact = () => {
   return (
     <div className='lg:max-w-[1290px] lg:mx-auto relative mb-[70px]' id='contact'>
-    <h2 className='font-bold text-[50px] font-serif text-[#eaebec]'>Contact</h2>
+    <h2 className='font-bold text-[50px] font-serif text-[#eaebec]'>Contact Me</h2>
     <div className='w-[110px] h-[3px] bg-[#ffc86b] mt-[15px]'></div>
     <div className='grid grid-cols-2 gap-4 h-full mt-[50px]'>
     <div className='flex justify-center flex-col items-center gap-[20px] text-[30px]'>
