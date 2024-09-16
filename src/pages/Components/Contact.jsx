@@ -22,7 +22,7 @@ const Contact = () => {
             <div className='flex flex-col justify-center  gap-4 p-[50px]'>
                 
 <form >
-  <label for="name-icon" className="block mb-3 text-sm font-medium text-[#ffc86b] dark:text-white">Name</label>
+  <label htmlFor="name-icon" className="block mb-3 text-sm font-medium text-[#ffc86b] dark:text-white">Name</label>
   <div className="relative mb-5">
     <div className="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
       <svg className="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
