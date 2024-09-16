@@ -1,14 +1,14 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import MyContext from '../MyContext';
 import SocialIcons from './SocialIcons';
 import Button from './Button';
 
  const HeroSection = () => {
-    const {somedata} = useContext(MyContext);
+    // const {somedata} = useContext(MyContext);
     
   return (
  
-  <section className='min-h-[89vh] px-[7%] pb-[1rem] flex items-center shadow-[0_4px_30px_-2px] ' id='home'>
+  <section className='min-h-[89vh] px-[7%] pb-[1rem] flex items-center shadow-[0_4px_30px_-2px]' id='home'>
     <div className='max-w-[36rem]'>
     <h2 className='text-[18px] font-bold text-[#eaebec] mb-[-8px]'>Hello, I'm</h2>
          <h1 className='text-[50px] font-bold text-[#ffc86b]'>Sunaina Kashyap</h1>
