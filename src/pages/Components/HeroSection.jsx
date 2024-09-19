@@ -2,6 +2,7 @@ import React from 'react'
 import MyContext from '../MyContext';
 import SocialIcons from './SocialIcons';
 import Button from './Button';
+import Link from 'next/link';
 
  const HeroSection = () => {
     // const {somedata} = useContext(MyContext);
@@ -15,7 +16,9 @@ import Button from './Button';
          <p className='text-[#eaebec] text-[24px] mt-[4px]' style={{fontFamily: 'cursive'}}>Frontend Developer</p>
          <p className='text-[#eaebec] mt-[10px]'>"Driven by a passion for clean code and elegant design, I develop robust frontend solutions that enhance user interaction."</p>
          <SocialIcons />
+         <Link href={'/assets/doc/my2024CV.pdf'} target='_blank' download>
          <Button title="Download CV" className='max-w-[200px] mt-4  w-[180px]'/>
+         </Link>
     </div>
     <div className='profession-container'>
          <div className='profession-box'>

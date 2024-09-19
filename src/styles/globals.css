@@ -43,7 +43,7 @@ nav > ul > li:hover::after {
 
 .profession-container {
   position: absolute;
-  top: 24rem;
+  top: 24.6em;
   right: 0;
   transform: translateY(-50%);
   width: 784px;
