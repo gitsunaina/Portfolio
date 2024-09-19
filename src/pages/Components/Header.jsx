@@ -32,8 +32,8 @@ import React, { useEffect, useState } from 'react'
      <header className={`w-full  
    
      `}>
-      <div className='flex justify-between items-center lg:max-w-[1290px]  lg:mx-auto py-[25px]'>
-        <span className='font-bold text-[#ffffff]'>Sunaina Kashyap</span>
+      <div className='flex justify-between items-center lg:max-w-[1307px]  lg:mx-auto py-[12px]'>
+        <span className='font-bold text-[#ffffff] ml-[-6px]'><img src='/assets/images/logo/logo-preview.png' alt='sunaina kashyap' width="60px" height="60px"></img></span>
         <nav className='z-[1]'>
             <ul className='flex justify-between gap-[20px]'>
               {menus.map((menu, index) => (
