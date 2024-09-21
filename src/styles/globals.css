@@ -16,6 +16,14 @@
   }
 }
 
+@media (max-width: 747px) {
+  .about-container,
+  .exp-container,
+  .contact-container {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+}
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #31333b;
@@ -57,7 +65,6 @@ nav > ul > li:hover::after {
   right: 0;
   width: 796px;
   height: 606px;
-  /* background-color: brown; */
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -96,9 +103,9 @@ border-radius: 50%;
   width: 0;
   height: 0;
   border-top: 286px solid #ffc86b;
-  border-right: 362px solid #ffc86b;
+  border-right: 340px solid #ffc86b;
   border-bottom: 333px solid #ffc86b;
-  border-left: 423px solid transparent;
+  border-left: 409px solid transparent;
 }
 .visit-site {
   background-color: #fc815c;

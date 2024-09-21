@@ -4,14 +4,14 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <div className='lg:max-w-[1290px] lg:mx-auto relative mb-[12rem]' id='experience'>
+    <div className='lg:max-w-[1290px] lg:mx-auto relative mb-[12rem] w-full exp-container' id='experience'>
         {/* <p className='text-center mb-[20px]'>What Skills I Have</p> */}
       
         <h2 className='font-bold text-[50px]  font-serif text-[#eaebec] '>My Skills</h2>
-        <div className='flex flex-col gap-[20px] mt-[26px]'>
-               <div className='flex gap-[20px] items-center'>
+        <div className='flex flex-col lg:gap-[20px] gap-[70px] mt-[26px]'>
+               <div className='flex gap-[20px] lg:items-center items-start'>
                <div className='w-[408px] h-[3px] bg-[#ffc86b] mt-[18px]'></div>
-               <div className='flex gap-[20px] h-[146px]'>
+               <div className='flex gap-[20px] lg:h-[146px] lg:flex-row flex-col h-full' >
                   <div className='flex items-center flex-col relative bg-[#3d3e42] w-[116px] h-[136px] p-[14px] rounded-lg '><img src='/assets/images/html.png' className='w-[83px] h-[89px]'></img><small className='text-[#eaebec]  skill-key'>HTML</small></div>
 
                   <div className='flex items-center flex-col relative  bg-[#3d3e42] w-[116px] h-[136px] p-[14px] rounded-lg '><img src='/assets/images/css.png' width="100px" height="100px" className='mt-[-5px]'></img><small className='text-[#eaebec] skill-key'>CSS</small></div>
@@ -22,9 +22,9 @@ const Experience = () => {
                </div>
                
                </div>
-               <div className='flex gap-[20px] justify-end items-center'>
+               <div className='flex gap-[20px] justify-end  lg:items-center items-start '>
                
-               <div className='flex gap-[16px] h-[119px]'>
+               <div className='flex gap-[16px] lg:h-[119px] lg:flex-row flex-col h-full'>
              
                  
                 <div className='flex items-center flex-col relative bg-[#3d3e42] w-[116px] h-[136px] p-[14px] rounded-lg '> <img src='/assets/images/bootstrap.png' width="91px"></img> <small className='text-[#eaebec] skill-key'>Bootstrap</small></div>
