@@ -24,7 +24,7 @@ const Contact = () => {
        </div>
             <div className='flex flex-col justify-center  gap-4 lg:p-[50px] p-0 order-1 lg:order-2'>
                 
-<form name='contact' netlify>
+<form name='contact' netlify= 'true'>
   <label htmlFor="name-icon" className="block mb-3 text-sm font-medium text-[#ffc86b] dark:text-white">Name</label>
   <div className="relative mb-5">
     <div className="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
