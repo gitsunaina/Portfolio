@@ -8,7 +8,7 @@ const About = () => {
     <section className='w-full lg:max-w-[1290px] lg:mx-auto  my-[11rem] about-container' id='about'>
           
                 <h2 className='font-bold text-[50px] font-serif text-[#eaebec]'>About</h2>
-                <div className='flex gap-[10px] mt-[20px]'>
+                <div className='flex mt-[20px]'>
                 <div className='w-[110px] h-[3px] bg-[#ffc86b] mt-[15px]'></div>
                <div className='flex flex-col gap-[10px] w-full about-desc'>
                <p className='text-[#eaebec] text-[18px] sm:text-[18px] lg:text-[22px] sm:w-full'>Experienced Javascript Developer with <span className='text-[#ffc86b]'> 1 years </span> in the industry. Proficient with <span className='text-[#ffc86b]'>React</span>. Used problem-solving aptitude to enhance application performance by <span className='text-[#ffc86b]'>15%</span>. Enhanced College based Application for Education Organisation.</p>
