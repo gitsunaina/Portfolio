@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button'
+import Link from 'next/link'
 
 const Contact = () => {
   return (
@@ -12,11 +13,13 @@ const Contact = () => {
        <div className='lg:bg-[#3d3e42] text-[20px] lg:text-[24px] bg-none px-[20px] py-[10px] flex items-center rounded-lg gap-[12px] shadow-[0px_0px_18px_0px]]'><i class="fa-brands fa-whatsapp mt-[2px]  text-[#ffc86b] text-[20px]"></i>
        <small className='text-[#f9f9f9]'>xxxxxxxx92</small></div>
        <div className='lg:bg-[#3d3e42] text-[20px] lg:text-[24px] bg-none px-[20px] py-[10px] flex items-center rounded-lg gap-[12px] shadow-[0px_0px_18px_0px]]'><i class="fa-solid fa-envelope mt-[2px] text-[#ffc86b] text-[20px]"></i>
-       <small className='text-[#f9f9f9]'>sunainaqq26@gmail.com</small></div>
+       <Link className='text-[#f9f9f9]' href={"mailto:sunainaqq26@gmail.com"}>sunainaqq26@gmail.com</Link></div>
        </div>
-       <div className='lg:bg-[#3d3e42] bg-none lg:px-[20px] ms-[26px] lg:ms-0 text-[20px] lg:text-[24px] py-[10px] flex items-center rounded-lg gap-[12px] shadow-[0px_0px_18px_0px]]'>
+       <div className='lg:bg-[#3d3e42] bg-none lg:px-[20px] justify-center lg:ms-0 text-[20px] lg:text-[24px] py-[10px] flex items-center rounded-lg gap-[12px] shadow-[0px_0px_18px_0px]] w-full'>
+       <div className='w-[250px] flex gap-[12px]'>
        <i class="fa-solid fa-location-dot mt-[2px] text-[#ffc86b] text-[20px]"></i>
        <small className='text-[#f9f9f9]'>Gurgaon, Haryana</small>
+       </div>
        </div>
        </div>
             <div className='flex flex-col justify-center  gap-4 lg:p-[50px] p-0 order-1 lg:order-2'>
